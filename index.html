@@ -14,7 +14,7 @@
       margin: 0;
       padding: 20px;
       background: linear-gradient(135deg, rgba(15,32,39,0.8), rgba(44,83,100,0.8)),
-                  url('https://raw.githubusercontent.com/Glorygame99/RESULTSYDNEYLOTTO/main/logo.png1') no-repeat center center;
+                  url('https://raw.githubusercontent.com/Glorygame99/RESULTSYDNEYLOTTO/main/logo.png') no-repeat center center;
       background-size: cover;
       background-position: center center;
     }
@@ -36,17 +36,17 @@
       text-shadow: 0 0 8px rgba(0,0,0,0.7);
     }
 
-    /* === CARD === */
+    /* === CARD (blur ringan, transparansi lebih rendah) === */
     .card {
       max-width: 900px;
       margin: auto;
-      background: rgba(0, 0, 0, 0.35);
+      background: rgba(0, 0, 0, 0.2); /* transparansi lebih rendah */
       border-radius: 15px;
       box-shadow: 0 8px 25px rgba(0,0,0,0.6);
       padding: 20px;
       text-align: center;
       overflow-x: auto;
-      backdrop-filter: blur(4px);
+      backdrop-filter: blur(2px); /* blur lebih ringan */
       transition: all 0.3s ease;
     }
 
